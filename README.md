@@ -9,7 +9,7 @@ The book isn't included here, get it from the link above.
 | Topic | Exercises |
 |---|---|
 | [Basic graph algorithms](Graphs/Basic%20Graph%20Algorithms) | 14, 15, 16, 17A, 17B, 18, 19A, 19BC |
-| [Depth-first search](Graphs/DFS) | 4, 9, 12 |
+| [Depth-first search](Graphs/DFS) | 9, 12 |
 | [Shortest paths](Graphs/SSSP) | 2, 3, 11, 12, 13, 14 (+2 variants), 18, 19A, 19B |
 
 Files are named after the exercise number, e.g. `Q9.cpp`.
@@ -20,4 +20,4 @@ Files are named after the exercise number, e.g. `Q9.cpp`.
 g++ -std=c++17 -O2 Graphs/SSSP/Q2.cpp -o q2 && ./q2
 ```
 
-Each file is a standalone program that reads from stdin. They all compile cleanly with `g++ -std=c++17`, but they're not run against an official test suite, so treat the answers as mine and not as the reference.
+Each file is a standalone program that reads its input from stdin. They all compile cleanly with `g++ -std=c++17`, but they're not run against an official test suite, so treat the answers as mine and not as the reference.
